@@ -1,0 +1,130 @@
+@media  screen and (max-width:620px) {
+    /* applies only if the screen is narrower than 620px */
+    padding: 3px 1em;
+}
+.body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.main_header {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    background-color: white;
+}
+.left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.button {
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 2px;
+}
+.right {
+    width: 75%;
+    padding-right: 5px;
+    gap: 20px;
+}
+.menu_btn{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.profile {
+    border-radius: 100%;
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+}
+.button div {
+    background-color: white;
+    width: 100%;
+    height: 8px;
+    position: relative;
+    border-radius: 5px;
+}
+#googleimg {
+    margin-top: 50px;
+}    
+#maindiv {
+    width: 50%;
+    border-radius: 50px;
+    display: flex;
+    height: 60px;
+    border: 1px solid lightgrey;
+}
+.holder {
+width: 80%;
+display:flex;
+height: 40px;
+margin-top: 6px;
+border-radius: 50px;
+}
+.language_offers  {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+a {
+    text-decoration: none;
+}
+.trending_posts {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    background-color: white;
+}
+.news_items {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    background-color: white; 
+}
+.footer {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px gray;
+    background-color: white;
+}
+.location {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    border-bottom: solid 1px gray;
+}
+.policy_terms {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.others {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
